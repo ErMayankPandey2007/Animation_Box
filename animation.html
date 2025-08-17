@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        #a{
+            height: 200px;
+            width: 200px;
+            background: red;
+            animation-name:digi;
+            animation-duration: 5s;
+            float: left;
+        }
+        @keyframes digi
+        
+        {
+            from{background:red}
+            to{background:green}
+        }
+        #b{
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+            animation-name:color;
+             animation-duration:5s;
+             float: right; 
+
+    }
+    @keyframes coders{
+        0%{background: purple;}
+        25%{background: green;}   
+        50%{background: blue;}
+        75%{background: yellow;}
+        100%{background: gray;}
+    
+    }
+    </style>
+</head>
+<body>
+    <div id="a"></div>
+    <div id="b"></div>
+</body>
+</html>
